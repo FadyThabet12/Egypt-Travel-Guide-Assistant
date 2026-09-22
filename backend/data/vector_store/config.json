@@ -1,0 +1,22 @@
+{
+  "collection_name": "egypt_travel_guides",
+  "embedding_model": "nomic-embed-text",
+  "doc_prefix": "search_document: ",
+  "query_prefix": "search_query: ",
+  "chunk_size": 1200,
+  "chunk_overlap": 200,
+  "page_keep_limit": 1800,
+  "min_chars": 60,
+  "top_k": 5,
+  "max_distance": 0.395,
+  "distance_metric": "cosine",
+  "n_chunks": 234,
+  "llm_model_used_in_eval": "llama3.2",
+  "sources": [
+    "Alexandria Guide",
+    "Aswan Guide",
+    "Egypt Map & Guide",
+    "Egypt Tourism Guide"
+  ],
+  "created_at": "2026-09-22T22:41:24"
+}

@@ -1,0 +1,13 @@
+# Environment for notebooks/rag_pipeline.ipynb  (pip install -r requirements-notebook.txt)
+jupyter
+ipykernel
+pandas>=2.2
+numpy>=1.26
+tabulate>=0.9
+python-dotenv>=1.0
+chromadb==1.5.9          # same version as the backend: the notebook writes the store the backend reads
+ollama==0.6.2
+pymupdf==1.28.2          # PDF text blocks + page rendering
+rapidocr-onnxruntime   # OCR for the scanned Aswan guide (pure pip, no Tesseract install)
+wordninja==2.0.0         # word-frequency list used to repair glued OCR words
+pillow>=10.0

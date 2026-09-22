@@ -1,0 +1,28 @@
+# --- environments & secrets -------------------------------------------------
+.venv/
+venv/
+.env
+
+# --- python / tooling --------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# --- editors / OS --------------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- data ---------------------------------------------------------------------
+# Raw PDF corpus (~60 MB, larger than the guideline for a repo). See README -> "Getting the data".
+data/raw/
+
+# The notebook's working copy of the vector store. The exported copy in backend/data/vector_store/
+# (a few MB, well under 50 MB) IS committed so the backend runs without rebuilding.
+data/vector_store/
+# If the exported store ever grows beyond ~50 MB, also ignore it:
+# backend/data/vector_store/*
+!backend/data/vector_store/.gitkeep
