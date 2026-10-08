@@ -1,4 +1,4 @@
-# 🏺 Egypt Travel Guide Assistant — RAG-powered document Q&A
+#  Egypt Travel Guide Assistant — RAG-powered document Q&A
 
 Ask a question about travel in Egypt and get an answer that is **grounded in four official tourism guides and shows its sources** — ticket prices, opening hours, distances between cities, temperatures, history. Everything runs **locally** (Ollama for the LLM and the embeddings, Chroma as the vector store), no API keys.
 
